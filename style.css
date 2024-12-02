@@ -2,17 +2,20 @@
 html{
     margin: 0;
     padding: 0;
-    height: 100%
+    margin-bottom: 0;
+    padding-top: 100px;
+    height: 100%;
+    scroll-behavior: smooth;
 }
 
 body {
-    margin: 0;
     font-family: Arial, sans-serif;
     background: linear-gradient(80deg, #FBFBFD 0%, #A7A7A7 100% );
     color: #fff;
+    height: 100%;
+    margin-top: 120px;
     margin: 0;
     padding: 0;
-    height: 100%
 }
 
 header {
@@ -21,6 +24,12 @@ header {
     align-items: center;
     padding: 20px 40px;
     background: linear-gradient(71deg, #333333 48%, #1A1A1A 48%);
+    position: fixed; 
+    top: 0;  
+    left: 0;  
+    width: 100%;  
+    z-index: 1000; 
+    overflow: hidden;
 }
 
 
@@ -54,7 +63,7 @@ header {
     font-family: 'Montserrat', sans-serif;
     font-size: bold;
     font-weight: 510;
-    right: 10px;
+    right: 100px;
     top: -10px;
 }
 
@@ -71,7 +80,7 @@ header {
     box-shadow: 0 4px 15px rgba(255, 87, 51, 0.5); 
     transition: box-shadow 0.3s; 
     text-decoration: none;
-    right: -10px;
+    right: 70px;
     top: -6px
 }
 
@@ -223,12 +232,19 @@ header {
     left: 620px;
 }
 
-.arrow-down{
-    position: relative;
-    justify-content: center;
-    top: 35px;
-}
+.arrow-down {
+    display: inline-block;
+    font-size: 3rem; 
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
 
+  .arrow-down:hover {
+    transform: translateY(-5px); 
+  }
+
+
+  
 .main-container{
     background-color: #333333;
     position: relative;
@@ -299,4 +315,166 @@ header {
     font-size: 19px;
     margin-left: 630px;
     margin-top: -20px;
+}
+
+
+.empty {
+    background-color: #989898;
+    position: relative;
+    height: 30px;
+    top: -100px;
+    z-index: 1; 
+}
+
+.port{
+    background-color: #1F1F1F;
+    position: relative;
+    height: auto;
+    top: -140px;
+}
+
+.ph{
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 160px;
+    font-size: 40px;
+    margin-top: 60px;
+}
+
+.pp{
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: -10px;
+    font-weight: 400;
+}
+
+
+#pic1{
+    position: relative;
+    border: 20px solid #1C1C1C;
+    border-radius: 10px;
+    right: 40px;
+    top: -310px;
+    width: 60%;
+    height: 60%;
+    overflow: hidden;
+}
+#pic2{
+    position: relative;
+    border: 20px solid #1C1C1C;
+    right: 60px;
+    top:  -15px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+#pic3{
+    position: relative;
+    width: 640px;
+    height: 350px;
+    right: 40px;
+    border: 20px solid #1C1C1C;
+    top: -323px;
+    width: 60%;
+    height: 60%;
+    overflow: hidden;
+}
+
+#pic4{
+    position: relative;
+    border: 20px solid #1C1C1C;
+    top: -720px;
+    width: 50%;
+    right: 40px;
+    overflow: hidden;
+}
+
+#pic5{
+    position: relative;
+    border: 20px solid #1C1C1C;
+    top: -430px;
+    right: 65px;
+    border-radius: 10px;
+    overflow: hidden;
+
+}
+
+
+#pic6{
+    position: relative;
+    width: 504.3px;
+    top: -740px;
+    width: 50%;
+    height: 50%;
+    right: 40px;
+    border: 20px solid #1C1C1C;
+    border-radius: 10px;
+    overflow: hidden;
+
+}
+
+#pic7{
+    position: relative;
+    border: 20px solid #1C1C1C;
+    border-radius: 10px;
+    overflow: hidden;
+    left: 612px;
+    top: -1200px;
+
+}
+
+#pic8{
+    position: relative;
+    width: 700px;
+    height: 306px;
+    border: 20px solid #1C1C1C;
+    border-radius: 10px;
+    overflow: hidden;
+    right: 40px;
+    top: -1400px;
+
+}
+
+#pic9{
+    position: relative;
+    width: 700px;
+    height: 510px;
+    top: -100px;
+    border: 20px solid #1C1C1C;
+    border-radius: 10px;
+    overflow: hidden;
+    right: 40px;
+    top: -1420px;
+
+}
+
+#pic10{
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+    top: -2120px;
+    left: 490px;
+    height: 55%;
+    width: 55%;
+}
+
+.psoc{
+    position: relative;
+    top: -2120px;
+    right: 350px;
+    text-align: right;
+
+}
+
+#insta{
+    position: relative;
+    top: -2240px;
+    left: 1000px;
+}
+
+
+#fbook{
+    position: relative;
+    top: -2240px;
+    left: 1030px;
 }
