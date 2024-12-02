@@ -329,7 +329,7 @@ header {
 .port{
     background-color: #1F1F1F;
     position: relative;
-    height: auto;
+    height: 3350px;
     top: -140px;
 }
 
@@ -460,21 +460,92 @@ header {
 
 .psoc{
     position: relative;
-    top: -2120px;
-    right: 350px;
+    top: -2140px;
+    right: 300px;
+    font-weight: 600;
     text-align: right;
 
 }
 
 #insta{
     position: relative;
-    top: -2240px;
+    top: -2260px;
     left: 1000px;
 }
 
 
 #fbook{
     position: relative;
-    top: -2240px;
+    top: -2260px;
     left: 1030px;
+}
+
+.about{
+    background-color: #2F323E;
+    position: relative;
+    right: 158px;
+    top: -156px;
+    width: 1581px;
+    height: 2000px;
+}
+
+.hab{
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 160px;
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 60px;
+    margin-left: 310px;
+}
+
+.pab{
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: -10px;
+    font-size: 30px;
+    font-weight: 600;
+    margin-left: 310px;
+}
+
+.ppab{
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: -10px;
+    font-size: 25px;
+    font-weight: 400;
+    margin-left: 310px;
+}
+
+#abimg1{
+    position: relative;
+    left: 950px;
+    top: -350px;
+}
+
+#abimg2{
+    position: relative;
+    left: 250px;
+    top: -300px;
+}
+
+#abimg3{
+    position: relative;
+    right: 620px;
+    top: -85px;
+}
+
+
+#abimg4{
+    position: relative;
+    top: -285px;
+    left: 610px;
+}
+
+#abimg5{
+    position: relative;
+    left: 250px;
+    top: -20px;
+    width: 1241px;
+    height: 651px;
 }
