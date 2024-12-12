@@ -408,21 +408,24 @@ header {
 .port {
     background-color: #1F1F1F;
     position: relative;
-    top: 2rem;
-    height: 433vh; 
+    top: 3.3rem;
+    height: 460vh; 
 }
 .ph {
     position: relative;
     font-family: 'Montserrat', sans-serif;
-    margin-left: 10%; 
+    margin-left: 9%; 
     font-size: 2.5rem; 
-    margin-top: 3rem; 
+    margin-top: -1rem; 
+    font-weight: 600;
 }
 
 .pp {
     position: relative;
     font-family: 'Montserrat', sans-serif;
     margin-top: -0.5rem;
+    margin-left: 8rem;
+    font-size: 2.2rem;
     font-weight: 400;
 }
 
@@ -430,7 +433,7 @@ header {
     position: relative;
     border: 1.25rem solid #1C1C1C; 
     border-radius: 0.625rem; 
-    right: 3%; 
+    right: -5%; 
     width: 60%; 
     height: auto; 
     overflow: hidden;
@@ -439,8 +442,8 @@ header {
 #pic2 {
     position: relative;
     border: 1.25rem solid #1C1C1C; 
-    right: 5%;
-    top: 1rem; 
+    right: -4%; 
+    top: -1rem; 
     border-radius: 0.625rem; 
     overflow: hidden;
 }
@@ -448,7 +451,7 @@ header {
 #pic3 {
     position: relative;
     border: 1.25rem solid #1C1C1C; 
-    right: 3%; 
+    right: -5%; 
     top: -19.25rem; 
     width: 60%; 
     height: auto; 
@@ -460,16 +463,16 @@ header {
     position: relative;
     border: 1.25rem solid #1C1C1C;
     width: 50%;
-    right: 3%;
+    right: -5%;
     overflow: hidden;
-    top: -66vh;
+    top: -69vh;
 }
 
 #pic5 {
     position: relative;
     border: 1.25rem solid #1C1C1C;
-    top: -50vh;
-    right: 5%;
+    top: -59vh;
+    right: -3.8%;
     border-radius: 0.625rem;
     overflow: hidden;
 }
@@ -477,8 +480,8 @@ header {
 #pic6 {
     position: relative;
     width: 50%;
-    top: -92vh;
-    right: 3%;
+    top: -98vh;
+    right: -5%;
     border: 1.25rem solid #1C1C1C;
     border-radius: 0.625rem;
     overflow: hidden;
@@ -489,8 +492,8 @@ header {
     border: 1.25rem solid #1C1C1C;
     border-radius: 0.625rem;
     overflow: hidden;
-    top: -60vh;
-    right: 5.4%;
+    top: -70vh;
+    right: -4%;
 }
 
 #pic8 {
@@ -500,8 +503,8 @@ header {
     border: 1.25rem solid #1C1C1C;
     border-radius: 0.625rem;
     overflow: hidden;
-    right: 3%;
-    top: -93vh;
+    right: -5%;
+    top: -99vh;
 }
 
 #pic9 {
@@ -511,36 +514,37 @@ header {
     border: 1.25rem solid #1C1C1C;
     border-radius: 0.625rem;
     overflow: hidden;
-    right: 3%;
-    top: -95vh;
+    right: -5%;
+    top: -100vh;
 }
 
 #pic10 {
     position: relative;
     border-radius: 0.625rem;
     overflow: hidden;
-    top: -170vh;
-    left: 45%;
+    top: -196vh;
+    left: 50%;
     height: 45%;
     width: 45%;
 }
 .psoc {
     position: relative;
-    top: -162vh;
-    right: 22%;
+    top: -166vh;
+    right: 23%;
+    font-size: 1.8rem;
     font-weight: 600;
     text-align: right;
 }
 
 #insta {
     position: relative;
-    top: -174vh;
+    top: -176vh;
     left: 80%;
 }
 
 #fbook {
     position: relative;
-    top: -174vh;
+    top: -176vh;
     left: 82%;
 }
 
@@ -562,7 +566,7 @@ header {
     position: relative;
     font-family: 'Montserrat', sans-serif;
     font-size: 3vw; 
-    font-weight: 800;
+    font-weight: 600;
     margin-top: -190vh; 
     margin-left: 10%; 
 }
@@ -588,14 +592,14 @@ header {
 
 #abimg1 {
     position: relative;
-    left: 50vw; 
-    top: 13vh
+    left: 55vw; 
+    top: 0vh;
 }
 
 #abimg2 {
     position: relative;
-    top: 40vh; 
-    left: 3vh;
+    top: 25vh; 
+    left: 12vh;
 }
 
 #abimg3 {
@@ -612,7 +616,7 @@ header {
 
 #abimg5 {
     position: relative;
-    left: 15vw; 
+    left: 12.2vw; 
     top: 25vh; 
     width: 80%; 
     height: auto; 
@@ -635,7 +639,7 @@ header {
 .hm {
     font-family: 'Montserrat', sans-serif;
     font-size: 2.5rem;
-    font-weight: 800;
+    font-weight: 700;
     margin-bottom: 1.25rem;
     position: relative;
     left: 12.2vw;
@@ -770,9 +774,6 @@ header {
 @media (max-width: 768px) {
 
 
-    .pics{
-
-    }
 
     .glav {
         font-size: 2rem;
@@ -937,6 +938,7 @@ header {
         margin-top: -3.5rem;
       }
 
+
     .phone{
         top: -2rem;
         left: -0.5rem;
@@ -960,6 +962,7 @@ header {
     .red{
         top: -1.6rem;
     }
+
 
     #pic1{
         top: 1rem;
@@ -1035,8 +1038,11 @@ header {
         left: 6.2rem;
     } 
     .port{
-        height: 455vh; 
+        height: 450vh; 
         width: 100%;
+    }
+    .pp{
+        margin-left: 2rem;
     }
 
     .language-selector{
@@ -1044,57 +1050,7 @@ header {
         top: 1.6rem;
         font-size: 0.95rem;
     }
-
-    .hab{
-        font-size: 1.8rem;
-    }
-    .pab{
-        font-size: 1.6rem;
-        margin-top: 0.2rem;
-    }
-    .ppab{
-        font-size: 1rem;
-    }
-
-
-    #abimg1{
-        top: 26rem;
-        left: 1rem;
-    }
-    #abimg2{
-        top: 16rem;
-        left: 0rem;
-        width: 50%;
-        height: 50%;
-    }
-
-    #abimg3{
-        top: 18rem;
-        left: 0rem;
-    }
-
-    #abimg4{
-        display: none;
-    }
-
-    #abimg5{
-        top: 20rem;
-        left: 0rem;
-        width: 100%;
-        height: 100%;
-    }
-
-    .no-mobile-br {
-        display: none;
-      }
-
-
-      .mail{
-        background-image: url('https://i.yapx.ru/YPCTw.png');
-        background-repeat: repeat-y;
-      }
 }
-
 
 
 @media (max-width: 376px){
@@ -1135,7 +1091,6 @@ header {
         right: 28%;
         top: 7rem;
     }
-
 
     #p2{
         font-size: 1rem;
